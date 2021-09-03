@@ -1,10 +1,10 @@
-baseURL = "/"
+baseURL = "/" # baseurl = "https://drchristianryan.com/"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Personal website of Christian Ryan"
 author = "Christian Ryan"
 copyright = "" # set to override the auto generated copyright using org info and now year
-googleAnalytics = ""
+googleAnalytics = "UA-149160448-2"
 disqusShortname = ""
 metaDataFormat = "yaml"
 footnoteReturnLinkContents = "&#8617;" # ↩
@@ -33,17 +33,17 @@ enableEmoji = true
   description = "A modern, beautiful, and easily configurable blog theme for Hugo."
   favicon = "/img/favicon.ico"
   logo = "/img/blogophonic-mark-dark.png"
-  mainSections = ["blog", "project", "talk"]
+  mainSections = ["blog", "blogs", "project"]
   navallcaps = true
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
-  socialInHeader = false
-  socialInFooter = true
+  socialInHeader = true
+  socialInFooter = false
   # Default image for social sharing and search engines. 
   # Place image file in `static` folder and specify image name here.
   sharing_image = "/img/papillons.jpg"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
-  twitter = "apreshill"
+  twitter = "christian_ryan"
   
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
@@ -73,22 +73,23 @@ enableEmoji = true
   # Icon pack "fab" includes brand icons, see: https://fontawesome.com/icons?d=gallery&s=brands&m=free
   # Icon pack "fas" includes solid icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
   # Icon pack "far" includes regular icons, see: https://fontawesome.com/icons?d=gallery&s=regular&m=free
+  
+  [[params.social]]
+      icon      = "google-scholar" # icon name without the 'fa-'
+      icon_pack = "ai"
+      url       = "https://scholar.google.com/citations?user=TC3KPGIAAAAJ&hl=en"
   [[params.social]]
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://github.com/apreshill/apero"
+      url       = "https://github.com/Christian-Ryan"
   [[params.social]]
       icon      = "facebook-square" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://www.facebook.com/hashtag/ap%C3%A9ro"
-  [[params.social]]
-      icon      = "instagram" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://www.instagram.com/explore/tags/apero/"
+      url       = "https://www.facebook.com/christian.ryan.562"
   [[params.social]]
       icon      = "twitter" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://twitter.com/hashtag/apéro"
+      url       = "https://twitter.com/_christian_ryan"
   [[params.social]]
       icon      = "rss" # icon name without the 'fa-'
       icon_pack = "fas"
@@ -115,11 +116,7 @@ enableEmoji = true
     title = "Project Portfolio"
     url = "/project/"
     weight = 3
-  [[menu.header]]
-    name = "Talks"
-    title = "Talks"
-    url = "/talk/"
-    weight = 4
+
     
   # Configure footer  
   [[menu.footer]]
