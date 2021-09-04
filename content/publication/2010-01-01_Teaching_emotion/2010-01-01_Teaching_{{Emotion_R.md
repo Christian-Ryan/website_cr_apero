@@ -1,6 +1,6 @@
 ---
 title: "Teaching Emotion Recognition Skills to Children with Autism"
-authors: 'Christian Ryan & Caitriona Ni Charragain'
+author: 'Christian Ryan & Caitriona Ni Charragain'
 date: "2010-04-13"
 doi: "https://doi.org/10.1007/s10803-010-1009-8"
 publishDate: "2010-04-13"

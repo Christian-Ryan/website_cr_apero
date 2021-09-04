@@ -1,6 +1,6 @@
 ---
 title: "British Outpatient Norms for the Brief Symptom Inventory"
-authors: "Christian Ryan"
+author: "Christian Ryan"
 date: "2007-01-01"
 doi: "https://doi.org/10.1348/147608306X111165"
 publishDate: "2007-01-01"
