@@ -1,7 +1,7 @@
 ---
 title: 'Forgetting Familiar Faces: Staff Perceptions of Dementia in People with Intellectual Disabilities'
 date: "2018-09-01"
-authors: "Christian Ryan, Rosemary MacHale, Emma Hickey"
+author: "Christian Ryan, Rosemary MacHale, Emma Hickey"
 publication_types: "2"
 publication: "British Journal of Learning Disabilities"
 publication_short: "British Journal of Learning Disabilities"
