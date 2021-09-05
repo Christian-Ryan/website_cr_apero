@@ -2,11 +2,12 @@
 ## Configure page content in wide column
 title: "" # leave blank to exclude
 number_featured: 1 # pulling from mainSections in config.toml
+use_featured: true
 number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: |
   
-show_outro: true
+show_outro: false
 outro: |
   <i class="fas fa-mug-hot pr2"></i>If my blog has helped you, you can [buy me a coffee](https://ko-fi.com/)!
 ---

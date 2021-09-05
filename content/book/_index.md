@@ -1,12 +1,13 @@
 ---
-title: A Project Portfolio To Grow
-description: "Give your projects a place to live online."
-author: "The R Markdown Team @RStudio"
+title: "Data Science with R for Psychologists and Other Healthcare Professionals"
+description: "My book"
+author: "Christian Ryan"
 show_post_thumbnail: true
-show_author_byline: true
+show_author_byline: false
 show_post_date: false
+featured: true
 # for listing page layout
-layout: list-grid # list, list-sidebar, list-grid
+layout: list # list, list-sidebar, list-grid
 
 # for list-sidebar layout
 sidebar: 
@@ -32,4 +33,7 @@ cascade:
     show_sidebar_adunit: false # show ad container
 ---
 
-** No content for the project index. This file provides front matter for the blog including the layout and boolean options. **
+For the past couple of years I have been working on a book using R for data science. The focus is on elements of data management that are sometimes treated lightly in traditional statistics books - organising data, renaming variables, creating composite scores and creating publication-ready output.
+
+![](/book/book_files/book.jpg)
+
