@@ -1,6 +1,6 @@
 ---
 title: 'Perceptions of friendship among girls with Autism Spectrum Disorders'
-date: "2018-09-01"
+date: "2020-04-17"
 author: "Christian Ryan, Maeve Coughlan, Jean Maher, Patricia Vicario & Alison Garvey"
 publication_types: "2"
 publication: "European Journal of Special Needs Education"

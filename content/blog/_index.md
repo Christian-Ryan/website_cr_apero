@@ -1,14 +1,13 @@
 ---
 title: A Blog mostly about R
 description: |
-  This is a fully featured blog that supports categories, 
-  tags, series, and pagination.
+  This is a blog about R programming and data analysis.
 author: "Christian Ryan"
 show_post_thumbnail: true
 show_author_byline: true
 show_post_date: true
 # for listing page layout
-layout: list-grid # list, list-sidebar, list-grid
+layout: list # list, list-sidebar, list-grid
 
 # for list-sidebar layout
 sidebar: 

@@ -56,18 +56,18 @@ some(afinn)
 
 ```
 ## # A tibble: 10 × 2
-##    word          value
-##    <chr>         <dbl>
-##  1 breathtaking      5
-##  2 dehumanized      -2
-##  3 elegantly         2
-##  4 excellent         3
-##  5 fud              -3
-##  6 happiness         3
-##  7 hug               2
-##  8 lackadaisical    -2
-##  9 whitewash        -3
-## 10 widowed          -1
+##    word       value
+##    <chr>      <dbl>
+##  1 astounded      3
+##  2 bamboozled    -2
+##  3 criticize     -2
+##  4 drag          -1
+##  5 infatuated     2
+##  6 mongering     -2
+##  7 redeemed       2
+##  8 skepticism    -2
+##  9 toothless     -2
+## 10 trapped       -2
 ```
 Here we see the various ratings given for the valence of each word regarded as having sentiment. This is scored on a scale from -5 to +5.
 
@@ -479,7 +479,7 @@ ggplot(aes(y = sentiment, x = sample))+
   geom_boxplot()
 ```
 
-<img src="/blog/2020-02-15-sentiment/2020-02-15-sentiment-analysis-of-dreams_files/figure-html/unnamed-chunk-30-1.png" width="672" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-30-1.png" width="672" />
 
 We can see that the vietnam_vet dreams appear to contain the most sentiment. In circumstances where the dataset allows us to compare the samples statistically, we could have used an ANOVA here to check whether these differences are significant. We might also want to take a look at the the single dream with the highest sentiment score. If we arrange the dataset by sentiment, in desceding order, this will give us the value.
 
@@ -526,7 +526,7 @@ ggplot(aes(y = positive, x = sample))+
   theme(plot.title = element_text(hjust = 0.5))
 ```
 
-<img src="/blog/2020-02-15-sentiment/2020-02-15-sentiment-analysis-of-dreams_files/figure-html/unnamed-chunk-33-1.png" width="672" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-33-1.png" width="672" />
 
 
 For the negative emotion, I have taken the absolute value with *abs()* function so that that it plots in the same direction as positive emotion.
@@ -540,7 +540,7 @@ ggplot(aes(y = abs(negative), x = sample))+
   theme(plot.title = element_text(hjust = 0.5))
 ```
 
-<img src="/blog/2020-02-15-sentiment/2020-02-15-sentiment-analysis-of-dreams_files/figure-html/unnamed-chunk-34-1.png" width="672" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-34-1.png" width="672" />
 
 
 ## Scatterplot of positive and negative sentiment by dream
@@ -556,7 +556,7 @@ df_sentiment %>%
   geom_jitter(alpha = .5)
 ```
 
-<img src="/blog/2020-02-15-sentiment/2020-02-15-sentiment-analysis-of-dreams_files/figure-html/unnamed-chunk-35-1.png" width="672" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-35-1.png" width="672" />
 
 
 There is no clear relationship between the positive and negative emotion. Clustering close to either axis would have implied that many dreams contain high amounts of positive or negative emotion, but not both. Whereas we see quite a spread across the graph, which shows that dreams can vary across positive and negative emotions. However, uni-direction emotional dreams do occur as well. If we look up the y axis we can see a number of blue and green dots from y = 10 to = y 22 where the value for x is probably 0 (after taking account of the error introduced in the jitter). These are dreams with only positive sentiment. The same uniformity can be seen in some of the dreams represented by green dots on the x axis from x = 12 to x = 23.
@@ -615,7 +615,7 @@ df_sentiment %>%
   ylab("Percentage of sentiment words per dream")
 ```
 
-<img src="/blog/2020-02-15-sentiment/2020-02-15-sentiment-analysis-of-dreams_files/figure-html/unnamed-chunk-40-1.png" width="672" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-40-1.png" width="672" />
 
 This has reduced some of the differences between the samples. We could check if the earlier difference in sentiment words between the samples was due to variations in word count by running a boxplot on our *count* variable.
 
@@ -626,7 +626,7 @@ df_sentiment %>%
   ylab("Number of words per dream")
 ```
 
-<img src="/blog/2020-02-15-sentiment/2020-02-15-sentiment-analysis-of-dreams_files/figure-html/unnamed-chunk-41-1.png" width="672" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-41-1.png" width="672" />
 
 This does appear to be the case. This shows how important controlling for word count could be in comparing texts. However, the *sentiment per word* needs to be treated with some caution. For instance, we still might want to know why some people express both more words and more emotion, rather than less words and less emotion. Looking at the last boxplot for instance, could make you wonder, why do the college women appear to use less words to describe their dreams that the hall females? However, investigating questions such as these is beyond the scope of this post.
 

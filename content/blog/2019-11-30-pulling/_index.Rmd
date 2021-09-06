@@ -2,10 +2,8 @@
 title: "2.1 - Pulling text data from the internet"
 author: "Christian Ryan"
 date: '2019-11-30'
-output:
-  html_document:
-    df_print: paged
-slug: pulling-text-data-from-the-internet
+layout: single
+draft: no
 ---
 
 ```{r include=FALSE}

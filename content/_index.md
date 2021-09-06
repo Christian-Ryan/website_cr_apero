@@ -4,7 +4,7 @@ subtitle: "Senior Lecturer in Clinical Psychology @ UCC"
 description: "A personal website"
 date: 2019-02-18T12:27:33-06:00
 images:
-  - img/avatar.jpg
+  - img/book.jpg
 image_left: true
 text_align_left: false
 show_social_links: true # specify social accounts in site config

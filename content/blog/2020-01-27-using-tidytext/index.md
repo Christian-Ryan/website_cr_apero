@@ -71,18 +71,18 @@ df_spread %>%
 
 ```
 ## # A tibble: 10 × 5
-##    word     college_women hall_female hall_male vietnam_vet
-##    <chr>            <dbl>       <dbl>     <dbl>       <dbl>
-##  1 answer            0.12        0.07      0.12        0.05
-##  2 bare              0.06        0.05      0.05        0.06
-##  3 breaking          0.03        0.02      0.05        0.02
-##  4 brought           0.03        0.02      0.02        0.03
-##  5 empty             0.12        0.02      0.05        0.16
-##  6 front             0.46        0.42      0.4         0.13
-##  7 laid              0.03        0.02      0.02        0.02
-##  8 paper             0.21        0.15      0.02        0.08
-##  9 stopped           0.31        0.17      0.14        0.02
-## 10 weak              0.03        0.02      0.02        0.06
+##    word       college_women hall_female hall_male vietnam_vet
+##    <chr>              <dbl>       <dbl>     <dbl>       <dbl>
+##  1 arms                0.15        0.02      0.07        0.11
+##  2 ball                0.12        0.02      0.09        0.02
+##  3 care                0.03        0.1       0.02        0.05
+##  4 completely          0.06        0.12      0.09        0.02
+##  5 heavy               0.03        0.05      0.05        0.13
+##  6 house               0.76        0.88      1.14        0.36
+##  7 leaving             0.06        0.02      0.16        0.05
+##  8 minutes             0.06        0.1       0.02        0.06
+##  9 moving              0.03        0.02      0.02        0.05
+## 10 running             0.12        0.02      0.3         0.06
 ```
 
 
@@ -137,7 +137,7 @@ ggplot(df_gather, aes(x = proportion, y = college_women,
   labs(y = "college_women", x = NULL)
 ```
 
-<img src="/blog/2020-01-27-using-tidytext/2020-01-27-using-tidytext-to-compare-samples-of-dreams_files/figure-html/unnamed-chunk-9-1.png" width="672" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-9-1.png" width="672" />
 
 
 

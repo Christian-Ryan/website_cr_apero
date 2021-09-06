@@ -7,7 +7,7 @@ output: html_document
 
 
 
-For the past couple of years I have been working on a book using R for data science. The focus is on elements of data management that are sometimes treated lightly in traditional statistics books - organising data, renaming variables, creating composite scores and creating publication-ready output. 
+For the past couple of years I have been working on a book using R for data science. The focus is on elements of data management that are sometimes treated lightly in traditional statistics books - organising data, renaming variables, creating composite scores and creating publication-ready output.
 
 ![](/book/book_files/book.jpg)
 
