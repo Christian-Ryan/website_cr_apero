@@ -1,7 +1,7 @@
 ---
-title: "About"
+title: "About Christian Ryan"
 description: |
-  
+  A personal website that focuses on using R in psychology.
 show_header: true
 sidebar_left: true
 # Keep this! Do not edit.

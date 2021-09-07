@@ -7,7 +7,7 @@ output: html_document
 
 
 
-For the past couple of years I have been working on a book using R for data science. The focus is on elements of data management that are sometimes treated lightly in traditional statistics books - organising data, renaming variables, creating composite scores and creating publication-ready output.
+For the past couple of years I have been working on a book using R for data science. The focus is on elements of data management that are sometimes treated lightly in traditional statistics books - organising data, renaming variables, creating composite scores and creating publication-ready output. 
 
 ![](/book/book_files/book.jpg)
 
@@ -18,3 +18,17 @@ This introduction to R for students of psychology and health sciences aims to fa
 https://books.google.ie/books/about/Data_Science_with_R_for_Psychologists_an.html?id=IudvzgEACAAJ&redir_esc=y
 
 The book will be available in December 2021. 
+
+I have developed a companion package for the book called **r4psych**. 
+
+![](/book/book_files/hex_r4psych.png)
+
+This package contains all of the datasets using in the analysis. It can be accessed using the following code: 
+
+
+```r
+library(devtools)
+install_github("Christian-Ryan/r4psych")
+```
+ 
+More details on using the package are given in chapter 4 of the book.
