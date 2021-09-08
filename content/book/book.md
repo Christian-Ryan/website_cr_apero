@@ -23,7 +23,7 @@ I have developed a companion package for the book called **r4psych**.
 
 ![](/book/book_files/hex_r4psych.png)
 
-This package contains all of the datasets using in the analysis. It can be accessed using the following code: 
+This package contains all of the datasets used in the analysis. It can be accessed using the following code: 
 
 
 ```r
