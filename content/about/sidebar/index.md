@@ -11,6 +11,8 @@ link_list:
   url: https://cran.r-project.org
 - name: R Bloggers
   url: https://www.r-bloggers.com
+- name: UCC
+  url: http://research.ucc.ie/profiles/A011/christian.ryan@ucc.ie
 - name: website theme - Hugo Apéro
   url: https://www.apreshill.com/project/hugo-apero/
 - name: simplystatistics
