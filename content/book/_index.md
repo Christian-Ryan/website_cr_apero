@@ -1,5 +1,5 @@
 ---
-title: "Data Science with R for Psychologists and Other Healthcare Professionals"
+title: "Data Science with R for Psychologists and Healthcare Professionals"
 description: 
 author: "Christian Ryan"
 
