@@ -4,7 +4,7 @@ description: |
   This is the home for my research publications. Most have a link to the pdf.
 author: "Christian Ryan"
 show_post_thumbnail: true
-show_author_byline: true
+show_author_byline: false
 show_post_date: true
 # for listing page layout
 layout: list # list, list-sidebar, list-grid
