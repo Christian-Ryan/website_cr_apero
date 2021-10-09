@@ -3,6 +3,8 @@ library(blogdown)
 build_site()
 serve_site()
 
+stop_server()
+
 ## extended hugo version
 # install_hugo(extended = TRUE)
 

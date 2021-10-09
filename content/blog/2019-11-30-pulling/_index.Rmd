@@ -111,13 +111,13 @@ Now we want to tidy up the dream variable. At the moment we have a bunch of char
 head(str_locate(df$dream, "[)]"))
 ```
 
-This indicates that a closing brace always occurs at the 35th character in the dream text field. We can use the Base R function substr() which takes a vector, a start and an end point. We know the start (character 36), which is the first character after the closing brace of the date, but we don't know the end, as all the dreams are different lenghts. But we can use the handy nchar() function which
+This indicates that a closing brace always occurs at the 35th character in the dream text field. We can use the Base R function substr() which takes a vector, a start and an end point. We know the start (character 36), which is the first character after the closing brace of the date, but we don't know the end, as all the dreams are different lengths. But we can use the handy nchar() function which
 counts the number of characters for us, so we treat this as a flexible endpoint. As this seems to work nicely, let's overwrite our dream variable with this new version
 ```{r}
 df$dream <- substr(df$dream, 36, nchar(df$dream))
 ```
 
-A quick look at the df using our custom_view() function indictes this is shaping up nicely. 
+A quick look at the df using our custom_view() function indicates this is shaping up nicely. 
 ```{r}
 custom_view(df)[1:5,]
 ```

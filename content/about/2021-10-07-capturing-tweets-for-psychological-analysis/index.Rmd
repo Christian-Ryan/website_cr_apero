@@ -1,0 +1,17 @@
+---
+title: "Capturing tweets for psychological analysis"
+author: "Christian Ryan"
+date: '2021-10-07'
+slug: []
+categories: []
+tags: []
+---
+It has been a while since my last blog post - I got a bit distracted writing a book about R...
+
+This blog post will be the first in a short series on using sentiment analysis with twitter data. When Covid-19 first started to affect Ireland, back in March 2019, a few colleagues and I were discussing the apparent differences in attitudes between countries towards the collective action required to enforce lockdowns and social distancing - particularly viewing these differences through the lens of Fisk's relational models theory (1992).
+
+Though the discussions didn't lead to a research paper (we all got sidelined by other projects during lockdown), it did inspire me enough to do some regular twitter downloading, creating a database of tweets during that period from four different locations of interest to our group - Ireland, England, New York, Los Angeles. I used the package **rtweet** to access the tweets.
+
+In this first post, we will look at the basics of downloading tweets using this package, before examining some of the text analytic tools for investigating the tweets themselves, in later posts.
+
+
