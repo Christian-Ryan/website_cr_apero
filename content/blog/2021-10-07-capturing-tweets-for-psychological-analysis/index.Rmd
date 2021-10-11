@@ -109,13 +109,21 @@ df <- search_tweets(q = "covid",
                     geocode = "51.51392,-0.09355,50mi")
 ```
 
-Let's take a quick look at the text of the first 5 tweets from the London area on the topic of "covid".
+Obviously, if you run this code for yourself, you will get a different set of tweets, dependent on the day and time that you run the search. If you would like to follow along with my code and see the impact on the very same tweets, I have stored this dataset as "london" in the **r4psych** package that I created to accompany my book. To get the data, you can follow these steps. We use **devtools** to install the package, because it isn't on CRAN, but github instead. Then we load the package, call the dataset with `data()`, and rename it to `df`. 
+```{r eval=FALSE}
+library(devtools)
+install_github("Christian-Ryan/r4psych")
+```
 
-```{r include=FALSE}
-load("london.Rdata")
+```{r}
+library(r4psych)
+data(london)
 df <- london
 rm(london)
 ```
+
+
+Let's take a quick look at the text of the first 5 tweets from the London area on the topic of "covid".
 
 ```{r results='hold'}
 df %>% 
@@ -137,7 +145,9 @@ These can cause problems for some R functions that rely on straight quotation ma
 
 ![](/blog/2021-10-07-capturing-tweets-for-psychological-analysis/covid.png)
 
-So before we make any other changes to our tweet text, we should convert all of the directional quotation marks (and apostrophes) to straight marks. Luckily, the package **proustr** has a function that will do just this. If you have this package installed, you can skip the next step. If not, we will run the `install.packages()` function with the package name, then load the package with `library()`.
+So before we make any other changes to our tweet text, we should convert all of the directional quotation marks (and apostrophes) to straight marks. Luckily, the package **proustr** has a function that will do just this (see the next blog post for an alternative method using **textclean**!). If you have this package installed, you can skip the next step. If not, we will run the `install.packages()` function with the package name, then load the package with `library()`.
+
+
 
 ```{r eval=FALSE}
 install.packages("proustr")
@@ -261,7 +271,7 @@ df <- df %>%
   mutate(text = replace_contraction(text))
 ```
 
-In the next blog post in this series, we will examine the use of hash, HTML and URLs in tweets, in preparation for extracting sentiment using **tidytext** techniques and an emotion lexicon.
+In the next blog post in this series, we will examine the use of tags, hash, HTML and URLs in tweets, in preparation for extracting sentiment using **tidytext** techniques and an emotion lexicon. If you want to follow along, I would suggest saving the dataset we have been altering, so that you can reload it later. 
 
 
 ## References
