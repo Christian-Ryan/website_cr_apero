@@ -9,6 +9,8 @@ tags: []
 
 <script src="/rmarkdown-libs/twitter-widget/widgets.js"></script>
 
+![](/blog/2021-11-10-further-text-cleaning/featured.png)
+
 ## Getting the data
 
 This blog post is a continuation of the previous one (3.1) examining tweets about covid we downloaded using the **rtweet** package.
