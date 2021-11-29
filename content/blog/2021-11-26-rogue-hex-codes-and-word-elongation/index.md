@@ -238,7 +238,7 @@ tail(hash_emojis)
 
 Before we re-run our `replace_emoji()` function on `df`, we need a way to track the three tweets we identified as containing hexadecimal codes. We can do this by utilising the tweet `status_url` that we saw in the last blogpost, which is a unique tweet identifier. 
 
-## Capture tweet `status_url` with hex codes present
+## Capture tweet status_url with hex codes present
 We can run the same filter as before, matching the pattern `"<"`, use the `pull()` function to take out just the `status_url` codes, and save these to a character vector that we will call "tweets_with_hex". 
 
 ```r
@@ -247,7 +247,7 @@ tweets_with_hex <- df %>%
   pull(status_url)
 ```
 
-## Using the customised `hash_emojis` dataset
+## Using the customised hash_emojis dataset
 Next, we will re-run our `replace_emoji()` function, but this time with our `hash_emoji` dataframe that we updated with four custom hexadecimal code/text pairs. We can then filter by the `status_url` argument, using the `%in%` operator, which allows us to specify which tweets to include - we will just include those where the `status_url` code matches an entry in our `tweets_with_hex` character vector. Finally, we `pull()` the text variable.   
 
 ```r
