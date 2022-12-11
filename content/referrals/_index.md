@@ -1,7 +1,7 @@
 ---
 title: Clinical referrals
 description: |
-  **Please note that I am currently unavailable for private work. Feel free to check back in a month or two and I will update this page as soon as this situation changes**.<br> <br>I qualified as a clinical psychologist in the UK in 2001 and have worked in the NHS, HSE and voluntary organisations in Ireland as a staff grade, senior psychologist and psychology manager. I am a chartered clinical psychologist with the Psychological Society of Ireland and am also a member of the British Psychological Society. I specialise in working with children and adults with autism, and with adults with intellectual disabilities. For more information about the services I offer, please feel free to contact me on the contact page below or by emailing me at dr.christian.ryan@gmail.com
+  **Please note that I am currently unavailable for private work. Feel free to check back in a few month and I will update this page as soon as this situation changes**.<br> <br>I qualified as a clinical psychologist in the UK in 2001 and have worked in the NHS, HSE and voluntary organisations in Ireland as a staff grade, senior psychologist and psychology manager. I am a chartered clinical psychologist with the Psychological Society of Ireland and am also a member of the British Psychological Society. I specialise in working with children and adults with autism, and with adults with intellectual disabilities. For more information about the services I offer, please feel free to contact me on the contact page below or by emailing me at dr.christian.ryan@gmail.com
 author: "Christian Ryan"
 show_post_thumbnail: false
 show_author_byline: false
